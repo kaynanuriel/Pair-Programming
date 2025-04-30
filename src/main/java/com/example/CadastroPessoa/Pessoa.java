@@ -7,6 +7,14 @@ public class Pessoa {
     String telefone;
     String endereco;
     Integer idade;
+
+    public Pessoa(String nome, String genero, String telefone, String endereco, Integer idade){
+        this.nome = nome;
+        this.genero = genero;
+        this.telefone = telefone;
+        this.endereco = endereco;
+        this.idade = idade;
+    }
     
     public String getNome() {
         return this.nome;
@@ -28,7 +36,6 @@ public class Pessoa {
         return this.idade;
     }
 
-    
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
@@ -48,6 +55,5 @@ public class Pessoa {
     public String getTelefone() {
         return this.telefone;
     }
-  
-      
+    
 }
